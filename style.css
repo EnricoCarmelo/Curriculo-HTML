@@ -1,0 +1,73 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #12001d;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #3b0a5c;
+    color: rgb(255, 255, 255);
+    padding: 1em;
+    text-align: center;
+    border-bottom: 2px solid #802ecc;
+}
+
+/* Estilo do conteúdo principal */
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 2em;
+}
+
+/* Estilo das seções */
+section {
+    margin-bottom: 2em;
+    padding: 1em;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+    color: #792899;
+}
+
+/* Estilo das listas */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+/* Responsividade básica */
+@media (max-width: 600px) {
+    main {
+        padding: 1em;
+    }
+}
+
+/* Outros ajustes visuais */
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover {
+    color: #2ecc71;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%
+    
+}
+/* Adicionar fonte externa */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
